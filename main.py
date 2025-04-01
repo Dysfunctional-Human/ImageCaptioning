@@ -56,7 +56,7 @@ print(50*'-', 'CNN + LSTM + Attention Model Instantiated', 50*'-')
 
 st.title("Image Caption Generator")
 st.write("In this demonstration, we'll be testing out 3 types of architectures for the Image Captioning Task. Checkout the github repository for architecture and training details")
-st.write('Github Repository link: LINK GOES HERE')
+st.write('Github Repository link: ',f'https://github.com/Dysfunctional-Human/ImageCaptioning')
 
 st.subheader('You can either upload your image for testing or try any random sample image')
 
@@ -82,7 +82,7 @@ def generate_captions(image):
     
 sample = st.button('Try with Sample Image')
 if sample:
-    img_idx = random.randint(0, 17)
+    img_idx = random.randint(0, 16)
     img = 'SampleImages/' + str(img_idx) + '.jpg'
     image = Image.open(img).convert("RGB")
     st.image(image)
