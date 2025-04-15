@@ -82,6 +82,8 @@ In the app, you can:
   - Encoder: Pretrained ResNet  
   - Decoder: LSTM that generates captions based on image features
 
+![alt text](Encoder-Decoder-Framework-for-Image-captioning-3.png)
+
 ---
 
 ### `attention_cnn_lstm_model.py`
@@ -91,6 +93,8 @@ In the app, you can:
 - **EncoderDecoderUsingAttention**  
   - Adds attention mechanism over CNN spatial feature maps  
   - Weights feature regions dynamically during caption generation
+
+![alt text](<Screenshot 2025-04-15 205630.png>)
 
 ---
 
@@ -103,6 +107,8 @@ In the app, you can:
 - **ImageCaptioningTransformerArchitecture**  
   - Transformer decoder to generate captions  
   - Inference via greedy decoding
+
+![alt text](applsci-08-00739-g001.png)
 
 ---
 
